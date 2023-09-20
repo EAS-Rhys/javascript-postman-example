@@ -1,0 +1,45 @@
+{
+  "streets":{
+    "elm_street":{
+      "houses": 10,
+      "deliveries": [
+        {
+          "number": 2,
+          "packageType": "Package",
+          "signatureRequired": false
+        },
+        {
+          "number": 4,
+          "packageType": "Envelope",
+          "signatureRequired": false
+        },
+        {
+          "number": 9,
+          "packageType": "Package",
+          "signatureRequired": true
+        }
+      ]
+    },
+    "oak_street":{
+      "houses": 10,
+      "deliveries": [
+        {
+          "number": 7,
+          "packageType": "Package",
+          "signatureRequired": false
+        },
+        {
+          "number": 6,
+          "packageType": "Envelope",
+          "signatureRequired": false
+        },
+        {
+          "number": 1,
+          "packageType": "Package",
+          "signatureRequired": true
+        }
+      ]
+    }
+  }
+  
+}
